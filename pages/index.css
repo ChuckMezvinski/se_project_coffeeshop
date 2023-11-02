@@ -162,11 +162,11 @@
   color: #fff;
   margin: 0;
 }
-.recipes__subtitles {
+.recipes__subtitle {
   margin: 0 0 0 80px;
   max-width: 438px;
 }
-.recipes__subtitles-text {
+.recipes__subtitle-text {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
