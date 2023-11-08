@@ -269,12 +269,10 @@ input {
   background-image: url(../images/check.svg);
   background-color: #2f80ed;
   border-radius: 2px;
-  size: 20px 20px;
 }
 .form__button {
   background-color: #2f80ed;
   border-radius: 2px;
-  size: 20px 20px;
   color: #fff;
   font-family: Inter;
   font-style: normal;
@@ -288,14 +286,11 @@ button {
   border-radius: 4px;
   height: 60px;
   width: 385px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
 }
 .form__button:hover {
-  from {
-    opacity: 100%;
-  }
-  to {
-    opacity: 70%;
-  }
+  opacity: 0.7;
 }
 .test {
   display: flex;
