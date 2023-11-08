@@ -216,6 +216,8 @@
   position: relative;
   flex-direction: column;
 }
+.reservation__title {
+}
 .reservation__title-header {
   font-family: Inter;
   font-style: normal;
