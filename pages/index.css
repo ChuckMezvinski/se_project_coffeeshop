@@ -217,13 +217,13 @@
   flex-direction: column;
 }
 .reservation__title {
-}
-.reservation__title-header {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+}
+.reservation__title-header {
   display: flex;
   justify-content: center;
   margin: 100px 0 80px 0;
