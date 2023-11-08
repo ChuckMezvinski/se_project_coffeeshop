@@ -116,7 +116,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383;
+  color: #6f6f6f;
   margin: 0 80px 0 0;
 }
 .header__paragraph {
@@ -131,7 +131,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383;
+  color: #6f6f6f;
 }
 .header__paragraph-text {
   margin-top: 0;
@@ -205,4 +205,102 @@
   color: #fff;
   display: flex;
   justify-content: space-between;
+}
+.reservations {
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.reservations__title-header {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 80px 0;
+}
+.reservations__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+input {
+  max-width: 385px;
+  border-radius: 4px;
+  margin: 8px 0 32px 0;
+  display: flex;
+}
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: none;
+}
+.form__input {
+  height: 60px;
+  width: 100%;
+  border: 0;
+  padding: 0;
+}
+.form__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 8px 0;
+}
+.form__label {
+}
+.form__label:not(:last-child) {
+  margin-bottom: 32px;
+}
+.form__checkbox {
+  background-image: url(../images/check.svg);
+  background-color: #2f80ed;
+  border-radius: 2px;
+  size: 20px 20px;
+}
+.form__button {
+  background-color: #2f80ed;
+  border-radius: 2px;
+  size: 20px 20px;
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: 0;
+  padding: 0;
+}
+button {
+  border-radius: 4px;
+  height: 60px;
+  width: 385px;
+}
+.form__button:hover {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 70%;
+  }
+}
+.test {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
