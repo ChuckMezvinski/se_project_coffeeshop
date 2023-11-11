@@ -54,14 +54,12 @@ input {
   font-size: 16px;
   line-height: 20px;
 }
-.form__label:not(:last-child) {
-  margin-bottom: 32px;
-}
+
 .form__checkbox {
   background-image: url(../images/check.svg);
   background-color: #2f80ed;
   border-radius: 2px;
-  margin-right: 12px;
+  margin: 0 12px 0 0;
 }
 .form__label-checkbox {
   display: flex;
