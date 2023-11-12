@@ -2,6 +2,7 @@
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   margin: 0;
   background-size: cover;
+  padding-top: 60px;
 }
 .footer__content {
   display: flex;
@@ -39,6 +40,7 @@
 }
 .footer__social-link {
   text-decoration: none;
+  color: black;
 }
 .footer__social-link:hover {
   transition: ease 1.5s;
@@ -46,11 +48,16 @@
 }
 .footer__copyright {
   margin: 108px 0 0 80px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   color: #fff;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+}
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
 }
