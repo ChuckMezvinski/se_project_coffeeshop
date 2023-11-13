@@ -6,7 +6,7 @@
   justify-content: flex-start;
 }
 .card__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -22,15 +22,17 @@
   flex-direction: column;
 }
 .card__list-item {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   list-style: none;
-  margin-bottom: 16px;
   display: flex;
   justify-content: space-between;
+}
+.card__list-item:not(:last-child) {
+  margin-bottom: 16px;
 }
 .card__list-divider {
   display: flex;

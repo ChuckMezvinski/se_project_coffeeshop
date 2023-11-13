@@ -17,6 +17,7 @@
   border-radius: 4px;
   margin: 8px 0 32px 0;
   display: flex;
+  border-style: solid;
 }
 .form__label {
   font-family: Inter;
@@ -39,11 +40,6 @@
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   margin-top: 32px;
 }
 .form__button {
